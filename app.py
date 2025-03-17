@@ -6,7 +6,7 @@ from gtts import gTTS  # Google Text-to-Speech
 app = Flask(__name__)
 
 # Hugging Face API Key
-HUGGING_FACE_API_KEY = "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"
+HUGGING_FACE_API_KEY = "api"
 
 # Hugging Face Models
 LYRICS_MODEL = "tiiuae/falcon-7b-instruct"
