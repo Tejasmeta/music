@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Song Maker</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Automatic Song Maker</h1>
+
+        <input type="text" id="theme" placeholder="Enter a theme">
+        <button id="generateButton" onclick="generateSong()">Generate Song</button>
+
+        <h3 id="status"></h3>
+
+        <h2>Lyrics</h2>
+        <p id="lyrics">Generated lyrics will appear here...</p>
+        <a id="downloadLyrics" href="#" download style="display:none;">Download Lyrics</a>
+
+        <h2>Lyrics Audio</h2>
+        <audio id="lyricsAudioPlayer" controls style="display:none;"></audio>
+        <a id="downloadLyricsAudio" href="#" download style="display:none;">Download Lyrics Audio</a>
+
+        <h2>Generated Music</h2>
+        <audio id="musicPlayer" controls style="display:none;"></audio>
+        <a id="downloadMusic" href="#" download style="display:none;">Download Music</a>
+    </div>
+</body>
+</html>
