@@ -19,8 +19,8 @@ This project is an **Automatic Song Maker** that generates songs using AI. It is
 
 ## 📸 Screenshots
 *(Add your images here later)*
-![Screenshot 1](path/to/image1.png)
-![Screenshot 2](path/to/image2.png)
+![Screenshot 1]([path/to/image1.png](https://github.com/Tejasmeta/music/blob/main/static/Screenshot%202025-03-18%20110627.png))
+![Screenshot 2]([path/to/image2.png](https://github.com/Tejasmeta/music/blob/main/static/Screenshot%202025-03-18%20110627.png))
 
 ## 📂 Installation & Setup
 To run this project locally, follow these steps:
